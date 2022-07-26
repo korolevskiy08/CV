@@ -1,0 +1,19 @@
+.distantWork{
+    height: 50vh;
+    background-color: #ffd4f0;
+}
+
+.distantWorkContainer{
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.title{
+
+}
+
+.button{
+    width: 150px;
+    height: 100px;
+    font-size: 20px;
+}
