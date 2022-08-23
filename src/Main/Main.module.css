@@ -1,16 +1,59 @@
-.mainBlock{
-    height: 100vh;
-    background-color: #ffd4f0;
-}
-
-.text{
-    width: 300px;
-    background-color: #f7f7f7;
-
-}
-
 .photo{
     width: 300px;
     height: 400px;
     background-color: #f7f7f7;
 }
+
+.mainBlock {
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    background-image: url('../common/welcome-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome{
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 75px;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.aboutMeBlock{
+    padding-bottom: 200px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 1px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    -webkit-transition: .3s;
+    transition: .3s;
+
+}
+
+.btn:hover{
+    background: rgba(0,0,0,0) -webkit-linear-gradient(left,#00c6ff,#0072ff);
+    border-color: #109af7;
+    color: #fff;
+}
+

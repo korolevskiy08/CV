@@ -1,6 +1,24 @@
-.nav{
-    border: 1px solid;
-    width: 300px;
+.header{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Roboto",sans-serif;
     display: flex;
     justify-content: space-between;
+}
+
+.navList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: white;
+    font-size: 14px;
 }
