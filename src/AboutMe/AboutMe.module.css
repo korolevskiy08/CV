@@ -1,0 +1,47 @@
+.aboutMeBlock{
+    padding: 120px 0 120px 0;
+    font-family: "Roboto", sans-serif;
+    background: #e7e6e6;
+}
+
+.avatar{
+    border: 10px solid #f4f4f4;
+    margin-top: 18px;
+    width: 320px;
+    border-radius: 50%;
+}
+
+.aboutContainer{
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.aboutMe{
+    border-bottom: 4px solid #109af7;
+    border-top: 4px solid #000;
+    display: inline-block;
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding: 5px 0;
+}
+.name{
+    color: #109af7;
+    font-family: "Roboto", sans-serif;
+}
+
+.description{
+    display: flex;
+    padding-top: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.aboutMeInfo{
+    width: 500px;
+}
+
+.aboutMeText{
+
+}

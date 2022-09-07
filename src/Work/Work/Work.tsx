@@ -16,12 +16,19 @@ export const Work = ({
 
                      }: WorkType) => {
     return (
-        <div className={style.work}>
-            <div className={style.icons}>
-                <button>{nameButton}</button>
+        <div className={style.workBlock}>
+            <div className={style.work}>
+                <div className={style.imgWork}>
+                    <img src={icons} alt="works"/>
+                </div>
+                <div className={style.icons}>
+                    <button className={style.button}>{nameButton}</button>
+                </div>
             </div>
-            <span>{nameProject}</span>
-            <p>{descriptionProject}</p>
+            <div className={style.descriptionWork}>
+                <h4>{nameProject}</h4>
+                <p>{descriptionProject}</p>
+            </div>
         </div>
     );
 };
