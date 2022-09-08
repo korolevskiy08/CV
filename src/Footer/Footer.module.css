@@ -1,6 +1,5 @@
 .footerBlock{
-    height: 50vh;
-    background-color: burlywood;
+    height: 10vh;
 }
 
 .footerContainer{
@@ -9,17 +8,24 @@
 }
 
 .social{
-    width: 500px;
-    height: 100px;
-    border: 1px solid;
+    width: 150px;
     font-size: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #99d0fb;
+    list-style-type: none;
 }
 
 a{
     text-decoration: none;
 }
 
+.footerBlock h2{
+
+}
+
+.socialIcons img{
+    width: 30px;
+    height: 30px;
+    fill: #109af7;
+}

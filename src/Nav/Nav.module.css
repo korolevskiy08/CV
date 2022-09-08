@@ -22,3 +22,7 @@
     color: white;
     font-size: 14px;
 }
+
+.nav a:hover {
+    color: #109af7;
+}

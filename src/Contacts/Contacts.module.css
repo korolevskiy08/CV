@@ -1,23 +1,26 @@
 .contactsBlock {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../common/contact-bg.jpg");
+    background-attachment: fixed;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 120px 0 120px 0;
 }
+
 
 .contactsContainer {
     justify-content: space-around;
     flex-direction: column;
-    position: relative;
-}
-
-.backgroundContact {
     position: absolute;
-    background-color: black;
 }
 
-.backgroundContact img {
-    width: 100%;
+.contactsBlock img {
+    max-width: 100%;
     opacity: 0.5;
 }
 
@@ -38,7 +41,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .form input {

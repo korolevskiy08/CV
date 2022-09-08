@@ -12,20 +12,12 @@ export const Main = () => {
 
 
     useEffect(() => {
-        // if(title.length>0){
-        //     setTimeout(()=>{
-        //         setText((a)=>a+title[index])
-        //         setIndex(index+1)
-        //         // title.slice(0)
-        //     }, 1000)
-        // }
-
         const timer = setInterval(() => {
             const currentText = title.slice(0, i) // 1
             setText(currentText) // 3
             setI(i + 1)
             if(i > title.length) return
-        }, 500)
+        }, 200)
         return () => {
             clearInterval(timer)
         }

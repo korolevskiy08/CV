@@ -7,8 +7,8 @@ import todolistImg from '../../src/common/original.jpg'
 
 export const Woks = () => {
     const [work, setWork] = useState([
-        {icons: socialNetworkImg, nameButton: 'Watch', nameProject: 'Social-network', descriptionProject: 'My app social network'},
-        {icons: todolistImg, nameButton: 'Watch', nameProject: 'Todolist', descriptionProject: 'My app Todolist'},
+        {icons: socialNetworkImg, nameButton: 'Watch', linkProject:'https://github.com/korolevskiy08/samurai-way', nameProject: 'Social-network', descriptionProject: 'My app social network'},
+        {icons: todolistImg, nameButton: 'Watch', linkProject:'https://github.com/korolevskiy08/MyTodo', nameProject: 'Todolist', descriptionProject: 'My app Todolist'},
     ])
 
     const workElement = work.map((el, i) => {
@@ -18,6 +18,7 @@ export const Woks = () => {
                   nameButton={el.nameButton}
                   nameProject={el.nameProject}
                   descriptionProject={el.descriptionProject}
+                  linkProject={el.linkProject}
             />
         )
     })

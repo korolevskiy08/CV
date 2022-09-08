@@ -1,19 +1,40 @@
 import React from 'react';
 import style from './Footer.module.css'
 import styleContainer from "../common/styles/Container.module.css";
+import faceBookSvg from '../../src/common/socialIcons/facebook-svgrepo-com.svg'
+import linkedInSvg from '../../src/common/socialIcons/linkedin-svgrepo-com.svg'
+import telegramSvg from '../../src/common/socialIcons/telegram-svgrepo-com.svg'
+import instagrmSvg from '../../src/common/socialIcons/instagram-svgrepo-com.svg'
 
 export const Footer = () => {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <h2>Karaleuski Yauheni</h2>
-                <div className={style.social}>
-                    <a href="">FaceBook</a>
-                    <a href="">LinkedIn</a>
-                    <a href="">Telegram</a>
-                    <a href="">Instagram</a>
+                <h2>All rights reserved © Profile 2022</h2>
+                <div >
+                    <ul className={style.social}>
+                        <li className={style.socialIcons}>
+                            <a href="">
+                                <img src={faceBookSvg} alt="facebook"/>
+                            </a>
+                        </li>
+                        <li className={style.socialIcons}>
+                            <a href="">
+                                <img src={linkedInSvg} alt="linkedIn"/>
+                            </a>
+                        </li>
+                        <li className={style.socialIcons}>
+                            <a href="">
+                                <img src={telegramSvg} alt="instagram"/>
+                            </a>
+                        </li>
+                        <li className={style.socialIcons}>
+                            <a href="">
+                                <img src={instagrmSvg} alt="instagram"/>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <h2>(с)Все права защищены</h2>
             </div>
         </div>
     );

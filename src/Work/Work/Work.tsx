@@ -6,14 +6,15 @@ export type WorkType = {
     nameButton: string
     nameProject: string
     descriptionProject: string
+    linkProject: string | undefined
 }
 
 export const Work = ({
                          icons,
                          nameButton,
                          descriptionProject,
-                         nameProject
-
+                         nameProject,
+                         linkProject
                      }: WorkType) => {
     return (
         <div className={style.workBlock}>
@@ -22,7 +23,11 @@ export const Work = ({
                     <img src={icons} alt="works"/>
                 </div>
                 <div className={style.icons}>
-                    <button className={style.button}>{nameButton}</button>
+                    <button className={style.button}>
+                        <a href={linkProject}>
+                            {nameButton}
+                        </a>
+                    </button>
                 </div>
             </div>
             <div className={style.descriptionWork}>
