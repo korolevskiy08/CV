@@ -24,7 +24,7 @@ export const Woks = () => {
     })
 
     return (
-        <div className={style.worksBlock}>
+        <div className={style.worksBlock} id={'project'}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <h2 className={style.title}>PORTFOLIO</h2>
                 <div className={style.works}>

@@ -1,4 +1,4 @@
-.photo{
+.photo {
     width: 300px;
     height: 400px;
     background-color: #f7f7f7;
@@ -16,7 +16,13 @@
     background-size: cover;
 }
 
-.welcome{
+.welcome {
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.textSkills {
     margin-bottom: 40px;
     font-size: 40px;
     line-height: 40px;
@@ -33,11 +39,11 @@ h1 {
     font-weight: bold;
 }
 
-.aboutMeBlock{
+.aboutMeBlock {
     padding-bottom: 200px;
 }
 
-.btn{
+.btn {
     background-color: transparent;
     border: 2px solid #fff;
     border-radius: 1px;
@@ -51,9 +57,35 @@ h1 {
 
 }
 
-.btn:hover{
-    background: rgba(0,0,0,0) -webkit-linear-gradient(left,#00c6ff,#0072ff);
+.btn:hover {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #00c6ff, #0072ff);
     border-color: #109af7;
     color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        display: none;
+    }
+
+    .textSkills {
+        font-size: 30px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .mainBlock {
+        height: auto;
+    }
+
+    .welcome {
+        font-size: 18px;
+    }
+    .aboutMeBlock{
+        padding-bottom: 50px;
+    }
 }
 

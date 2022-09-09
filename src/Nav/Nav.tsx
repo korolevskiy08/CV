@@ -1,19 +1,25 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from './Nav.module.css'
 import styleContainer from '../common/styles/Container.module.css'
+import {NavLink} from "./NavLink/NavLink";
+import {AccordionTitle} from "./AccordionTitle/AccordionTitle";
 
 
 export const Nav = () => {
+
+    const [on, setOn] = useState(false)
+
     return (
         <div className={style.header}>
             <div className={`${styleContainer.container}`}>
+
+                <div className={style.burger}>
+                        <AccordionTitle setOffHandler={()=>setOn(!on)}/>
+                    {on && <NavLink/>}
+                </div>
+
                 <nav className={style.nav}>
-                    <ul className={style.navList}>
-                        <li><a href=''>About</a></li>
-                        <li><a href=''>Skills</a></li>
-                        <li><a href=''>Contacts</a></li>
-                        <li><a href=''>My projects</a></li>
-                    </ul>
+                    <NavLink />
                 </nav>
             </div>
         </div>
