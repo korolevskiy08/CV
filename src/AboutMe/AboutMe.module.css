@@ -49,3 +49,10 @@
 
     }
 }
+
+@media screen and (max-width: 380px) {
+    .aboutMeInfo{
+        padding: 10px 15px 0 15px;
+
+    }
+}

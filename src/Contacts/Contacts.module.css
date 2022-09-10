@@ -35,6 +35,10 @@
     padding: 5px 0;
 }
 
+.contactsBlock h4{
+    color: white;
+}
+
 .form {
     width: 800px;
     height: 230px;
