@@ -8,10 +8,9 @@ import instagrmSvg from '../../src/common/socialIcons/instagram-svgrepo-com.svg'
 
 export const Footer = () => {
     return (
-        <div className={style.footerBlock}>
-            <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <h2>All rights reserved © Profile 2022</h2>
-                <div >
+        <div className={`${styleContainer.container} ${style.footerContainer}`}>
+                <div className={style.socialContainer}>
+                    <h2>All rights reserved © Profile 2022</h2>
                     <ul className={style.social}>
                         <li className={style.socialIcons}>
                             <a href="">
@@ -35,8 +34,9 @@ export const Footer = () => {
                         </li>
                     </ul>
                 </div>
-            </div>
+
         </div>
+        // </div>
     );
 };
 

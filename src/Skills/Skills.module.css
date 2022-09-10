@@ -28,3 +28,9 @@
     padding-top: 50px;
 }
 
+@media screen and (max-width: 768px) {
+    .skills{
+        justify-content: center;
+    }
+}
+

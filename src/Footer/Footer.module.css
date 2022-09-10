@@ -1,5 +1,5 @@
 .footerBlock{
-    height: 10vh;
+    height: auto;
 }
 
 .footerContainer{
@@ -21,11 +21,26 @@ a{
 }
 
 .footerBlock h2{
-
+    width: 60vh;
 }
 
 .socialIcons img{
     width: 30px;
     height: 30px;
     fill: #109af7;
+}
+.socialContainer{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .footerBlock h2{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .footerBlock h2{
+        font-size: 14px;
+    }
 }
