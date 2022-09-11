@@ -95,10 +95,10 @@ textarea {
 
 @media screen and (max-width: 768px) {
     .form input {
-        max-width: 720px;
+        width: 80vw;
     }
     .form textarea{
-        max-width: 720px;
+        width: 80vw;
     }
     .form{
         align-items: center;

@@ -14,7 +14,7 @@ export const NavLink = () => {
             <ul className={style.navList}>
                 {navList.map((el, i) => {
                     return (
-                        <li className={style.list}><a href={el.href}>{el.title}</a></li>
+                        <li className={style.list} key={i}><a href={el.href}>{el.title}</a></li>
                     )
                 })}
             </ul>
