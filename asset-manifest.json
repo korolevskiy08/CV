@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.94c7a774.css",
+    "main.css": "/CV/static/css/main.d6042d29.css",
     "main.js": "/CV/static/js/main.7fd01ab6.js",
     "static/js/787.28cb0dcd.chunk.js": "/CV/static/js/787.28cb0dcd.chunk.js",
     "static/media/contact-bg.jpg": "/CV/static/media/contact-bg.ced528551012b0057111.jpg",
@@ -22,12 +22,12 @@
     "static/media/facebook-svgrepo-com.svg": "/CV/static/media/facebook-svgrepo-com.c1bae3f27056cdd9321dd5c4e0083712.svg",
     "static/media/js-svgrepo-com.svg": "/CV/static/media/js-svgrepo-com.b677ccd2982f052471b416f9eac1e26b.svg",
     "static/media/axios-icon.svg": "/CV/static/media/axios-icon.6d170f64a4a89ba89dd79fb56a486bbd.svg",
-    "main.94c7a774.css.map": "/CV/static/css/main.94c7a774.css.map",
+    "main.d6042d29.css.map": "/CV/static/css/main.d6042d29.css.map",
     "main.7fd01ab6.js.map": "/CV/static/js/main.7fd01ab6.js.map",
     "787.28cb0dcd.chunk.js.map": "/CV/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94c7a774.css",
+    "static/css/main.d6042d29.css",
     "static/js/main.7fd01ab6.js"
   ]
 }
