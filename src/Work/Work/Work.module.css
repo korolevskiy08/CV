@@ -3,7 +3,7 @@
 }
 
 .work {
-    width: 400px;
+    max-width: 400px;
     position: relative;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .imgWork img {
-    width: 400px;
+    max-width: 400px;
     height: 250px;
     vertical-align: top;
 }
