@@ -1,8 +1,6 @@
 import React from 'react';
 import style from './Contacts.module.css'
 import styleContainer from "../common/styles/Container.module.css";
-import telegramSvg from '../../src/common/socialIcons/telegram-svgrepo-com.svg'
-
 
 export const Contacts = () => {
     return (

@@ -21,7 +21,7 @@ export type SkillType = {
 
 export const Skills = () => {
 
-    const [skills, setSkils] = useState<Array<SkillType>>([
+    let skills = [
         {imageSkill: htmlSvg, titleSkill: 'HTML', directionSkill: 'hypertext markup language for viewing web pages in a browser'},
         {imageSkill: cssSvg, titleSkill: 'CSS', directionSkill: 'A formal language for describing the appearance of a document (web page) written using a markup language'},
         {imageSkill: jsSvg, titleSkill: 'JS', directionSkill: 'Multi-paradigm programming language. Supports object-oriented, imperative and functional styles.'},
@@ -30,8 +30,9 @@ export const Skills = () => {
         {imageSkill: axiosSvg, titleSkill: 'AXIOS', directionSkill: 'Promise-based HTTP client for node. js and browser'},
         {imageSkill: sassSvg, titleSkill: 'SASS', directionSkill: 'CSS-based metalanguage designed to increase the abstraction level of CSS code and simplify cascading style sheet files'},
         {imageSkill: storybookSvg, titleSkill: 'STORYBOOK', directionSkill: 'Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation.'},
-        {imageSkill: materialUiSvg, titleSkill: 'MaterialUI', directionSkill: 'ReactJS\'s framework provides google-ready solutions for fast and fairly simple web development.'},
-    ])
+        {imageSkill: materialUiSvg, titleSkill: 'MaterialUI', directionSkill: 'ReactJS\'s framework provides google-ready solutions for fast and fairly simple web development.'}
+]
+
 
     const skillsElement = skills.map((el: any, i) => {
         return (

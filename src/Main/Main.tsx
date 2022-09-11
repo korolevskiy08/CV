@@ -6,7 +6,6 @@ import {Header} from "../Header/Header"
 export const Main = () => {
 
     const [text, setText] = useState('')
-    const [index, setIndex] = useState(0)
     const [i, setI] = useState(1)
     const title = 'Front-end developer'
 
@@ -17,6 +16,9 @@ export const Main = () => {
             setText(currentText) // 3
             setI(i + 1)
             if(i > title.length) return
+            if(i === title.length){
+                setI(1)
+            }
         }, 200)
         return () => {
             clearInterval(timer)
