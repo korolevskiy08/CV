@@ -28,9 +28,9 @@
     padding-top: 50px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .works{
-        justify-content: space-around;
+        justify-content: center;
     }
 }
 

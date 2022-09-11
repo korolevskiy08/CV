@@ -16,7 +16,7 @@
 }
 
 .imgWork img {
-    max-width: 400px;
+    width: 400px;
     height: 250px;
     vertical-align: top;
 }
@@ -77,6 +77,10 @@
     text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+
+}
+
 @media screen and (max-width: 768px) {
     .imgWork img {
         width: 90vw;
@@ -85,3 +89,4 @@
         width: 90vw;
     }
 }
+
