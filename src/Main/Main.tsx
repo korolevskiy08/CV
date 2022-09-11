@@ -34,7 +34,9 @@ export const Main = () => {
                 <div className={style.text}>
                     <span className={style.welcome}>Welcome to my site</span>
                     <h1>I am Karaleuski Yauheni</h1>
-                    <p className={style.textSkills}>{text}</p>
+                    <div className={style.textBlock}>
+                        <p className={style.textSkills}>{text}</p>
+                    </div>
                 </div>
                 <div className={style.aboutMeBlock}>
                     <a className={style.btn} href={'#about'}>more about me</a>
