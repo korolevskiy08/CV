@@ -9,14 +9,13 @@ export const Main = () => {
     const [i, setI] = useState(1)
     const title = 'Front-end developer'
 
-
     useEffect(() => {
         const timer = setInterval(() => {
             const currentText = title.slice(0, i) // 1
             setText(currentText) // 3
             setI(i + 1)
-            if(i > title.length) return
-            if(i === title.length){
+            if (i > title.length) return
+            if (i === title.length) {
                 setI(1)
             }
         }, 200)
